@@ -86,7 +86,7 @@ a:hover {
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     display: flex;
     flex-direction: row;
     margin: 60px auto;
@@ -159,6 +159,10 @@ a:hover {
     p {
         text-align: center;
     }
+
+    #logo {
+        max-width: 180px;
+    }
 }
 
 @media all and (min-width: 1600px) {
@@ -178,9 +182,5 @@ a:hover {
 
     .small-headline {
         font-size: 18px;
-    }
-
-    .row {
-        max-width: 1600px;
     }
 }
