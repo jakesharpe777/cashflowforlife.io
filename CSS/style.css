@@ -64,6 +64,7 @@ a:hover {
     border-radius: 9px;
     padding: 10px 15px;
     transition: var(--transition);
+    margin-top: 30px;
 }
 
 .primary-btn:hover {
@@ -118,6 +119,12 @@ a:hover {
     margin-left: auto;
 }
 
+#logo {
+    max-width: 250px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
 
 @media all and (min-width: 540px) and (max-width: 1200px) {
     h1 {
