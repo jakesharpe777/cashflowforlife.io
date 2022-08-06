@@ -325,6 +325,10 @@ img {
     border-radius: 12px;
 }
 
+#faq .accordion-list .accordion-item:hover {
+    cursor: pointer;
+}
+
 #faq .accordion-list .accordion-item .accordion-head {
     display: flex;
     flex-direction: row;
