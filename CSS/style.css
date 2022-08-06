@@ -132,12 +132,12 @@ img {
     font-weight: 700;
     text-decoration: none;
     width: fit-content;
-    background-color: var(--primary);
+    background-color: var(--secondary);
     color: var(--white);
     border-radius: 9px;
     padding: 15px 20px;
     transition: var(--transition);
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 
 .primary-btn:hover {
@@ -320,6 +320,25 @@ img {
     font-size: 14px;
     opacity: 0.5;
     margin-bottom: 0;
+}
+
+#footer .row:nth-child(1) {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#footer .row:nth-child(2) {
+    margin-top: 0;
+    padding-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    justify-content: flex-start;
+}
+
+#footer .row i {
+    font-size: 25px;
 }
 
 
