@@ -34,7 +34,7 @@ body {
 /* TEXT */
 h1 {
     font-weight: 800;
-    font-size: 56px;
+    font-size: 64px;
     color: var(--white);
     line-height: 1.2;
     margin-bottom: 16px;
@@ -42,7 +42,7 @@ h1 {
 
 p,
 ul {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 16px;
 }
 
@@ -67,6 +67,8 @@ a:hover {
 /* HEADER */
 #header .row {
     background-color: var(--background-dark);
+    margin: 20px auto;
+    padding: 0;
 }
 
 #header .row .logo {
@@ -101,6 +103,11 @@ a:hover {
     margin-top: 0;
 }
 
+#hero .row {
+    height: 70vh;
+    margin-top: 0;
+    padding-top: 0;
+}
 
 /* BUTTONS */
 .primary-btn {
@@ -242,29 +249,5 @@ a:hover {
     
     p {
         text-align: center;
-    }
-
-    #logo {
-        max-width: 180px;
-    }
-}
-
-@media all and (min-width: 1600px) {
-    p,
-    a,
-    ul {
-        font-size: 16px;
-    }
-
-    h2 {
-        font-size: 36px;
-    }
-
-    h3 {
-        font-size: 24px;
-    }
-
-    .small-headline {
-        font-size: 18px;
     }
 }
