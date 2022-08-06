@@ -303,7 +303,24 @@ img {
 /* FAQ */
 
 /* FOOTER */
+#footer .row {
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+    margin: 80px auto;
+}
 
+#footer .row .logo {
+    width: 200px;
+    height: auto;
+}
+
+#footer .row p {
+    font-size: 14px;
+    opacity: 0.5;
+    margin-bottom: 0;
+}
 
 
 
