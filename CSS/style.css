@@ -337,8 +337,15 @@ img {
     justify-content: flex-start;
 }
 
-#footer .row i {
+#footer .row.socials a {
     font-size: 25px;
+    opacity: 0.5;
+    transition: var(--transition);
+}
+
+#footer .row.socials a:hover {
+    opacity: 1;
+    transition: var(--transition);
 }
 
 
