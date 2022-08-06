@@ -227,6 +227,14 @@ img {
 
 
 /* USPS */
+#usp .row h2 {
+    font-size: 40px;
+}
+
+#usp .row .small-headline {
+    text-align: center;
+}
+
 #usp .row {
     gap: 20px;
 }
@@ -237,10 +245,13 @@ img {
 }
 
 #usp .row .usp-item h5 {
+    font-size: 20px;
+    font-weight: 700;
     padding: 10px 0 0 10px;
 }
 
 #usp .row .usp-item p {
+    font-size: 16px;
     padding: 10px 0 10px 10px;
 }
 
@@ -250,11 +261,42 @@ img {
     border-top-left-radius: 12px;
 }
 
+#usp .row:nth-child(1),
+#reviews .row:nth-child(1) {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+#usp .row:nth-child(2),
+#reviews .row:nth-child(2) {
+    margin-top: 0;
+    padding-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
 
 
 /* KPIS */
 
 /* REVIEWS */
+#reviews .row h2 {
+    font-size: 40px;
+}
+
+#reviews .row .review-item h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--secondary);
+    margin-bottom: 10px;
+}
+
+#reviews .row .review-item p {
+    font-style: italic;
+}
+
 
 /* YOUTUBE EMBED */
 
