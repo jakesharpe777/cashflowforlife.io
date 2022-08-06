@@ -31,10 +31,23 @@ body {
     color: var(--white);
 }
 
+::selection {
+    color: var(--white);
+    background: var(--secondary);
+}
+
 /* TEXT */
 h1 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 64px;
+    color: var(--white);
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 28px;
     color: var(--white);
     line-height: 1.2;
     margin-bottom: 16px;
@@ -61,6 +74,11 @@ a:hover {
 .small-headline {
     text-align: left;
     color: var(--secondary);
+    text-transform: capitalize;
+}
+
+img {
+    border-radius: 12px;
 }
 
 
@@ -143,7 +161,7 @@ a:hover {
     max-width: 1000px;
     display: flex;
     flex-direction: row;
-    margin: 60px auto;
+    margin: 20px auto;
     padding: 60px;
     border-radius: 12px;
     justify-content: center;
@@ -209,6 +227,30 @@ a:hover {
 
 
 /* USPS */
+#usp .row {
+    gap: 20px;
+}
+
+#usp .row .usp-item {
+    background-color: var(--secondary);
+    border-radius: 12px;
+}
+
+#usp .row .usp-item h5 {
+    padding: 10px 0 0 10px;
+}
+
+#usp .row .usp-item p {
+    padding: 10px 0 10px 10px;
+}
+
+#usp .row .usp-item img {
+    border-radius: 0;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+
 
 /* KPIS */
 
