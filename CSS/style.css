@@ -277,9 +277,58 @@ img {
     border-top-left-radius: 0;
 }
 
+/* STATS */
+#stats .row:nth-child(1) {
+    background-color: transparent;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+}
+
+#stats .row h2 {
+    font-size: 42px;
+}
+
+#stats .row:nth-child(2) {
+    flex-direction: column;
+    gap: 20px;
+    background-color: transparent;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#stats .row .stats-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-accent);
+    padding: 40px;
+    border-radius: 12px;
+}
+
+#stats .row .stats-item:nth-child(1) {
+    
+}
+#stats .row .stats-item:nth-child(2) {
+
+}
+#stats .row .stats-item:nth-child(3) {
+
+}
+
+#stats .row .stats-item .left {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0;
+    max-width: 33%;
+}
+
+#stats .row .stats-item .right {
+    font-size: 18px;
+    max-width: 33%;
+    margin-bottom: 0;
+}
 
 
-/* KPIS */
 
 /* REVIEWS */
 #reviews .row h2 {
@@ -336,7 +385,7 @@ img {
 }
 
 #faq .accordion-list .accordion-item .accordion-head h5 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--white);
     opacity: 0.5;
