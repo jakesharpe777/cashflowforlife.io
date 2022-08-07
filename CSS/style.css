@@ -520,8 +520,7 @@ img {
         align-items: center;
         justify-content: space-between;
         padding: 10px 20px;
-        background-color: #fafafa;
-        /* background-color: var(--background-accent); */
+        background-color: var(--background-accent);
     }
 
     #small-nav .logo {
@@ -530,16 +529,19 @@ img {
     }
 
     #small-nav #menu-toggle i {
-        color: red;
+        color: var(--white);
         font-size: 25px;
     }
 
     .small-menu-wrapper .small-menu-content {
         display: flex;
         flex-direction: column;
-        background-color: #fafafa;
+        background-color: var(--white);
         padding: 20px;
-        border-top: 1px solid red;
+    }
+    
+    .small-menu-wrapper .small-menu-content a {
+        color: var(--background-accent);
     }
 
     .row {
