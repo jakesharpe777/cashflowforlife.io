@@ -627,6 +627,14 @@ img {
         padding-top: 20px;
     }
 
+    #usp .row .usp-item {
+        width: 100%;
+    }
+
+    #usp .row .usp-item p {
+        text-align: left;
+    }
+
     #stats .row .stats-item {
         flex-direction: column;
     }
