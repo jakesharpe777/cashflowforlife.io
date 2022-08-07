@@ -166,7 +166,7 @@ img {
 
 .row {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1296px;
     display: flex;
     flex-direction: row;
     margin: 60px auto;
