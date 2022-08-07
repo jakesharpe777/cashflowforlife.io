@@ -335,6 +335,7 @@ img {
     gap: 20px;
     background-color: transparent;
     margin-top: 0;
+    margin-bottom: 0;
     padding-top: 0;
 }
 
@@ -389,6 +390,7 @@ img {
 
 /* FAQ */
 #faq .row:nth-child(1) {
+    margin-top: 0;
     margin-bottom: 20px;
     padding-bottom: 0;
     justify-content: flex-start;
@@ -397,6 +399,7 @@ img {
 #faq .row:nth-child(2) {
     margin-top: 0;
     padding-top: 0;
+    margin-bottom: 0;
 }
 
 #faq .row h2 {
