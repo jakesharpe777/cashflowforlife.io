@@ -645,6 +645,10 @@ img {
         width: 100%;
     }
 
+    #faq .accordion-list .accordion-item .accordion-body p {
+        text-align: left;
+    }
+
     #footer .row {
         align-items: unset;
         justify-content: flex-start;
