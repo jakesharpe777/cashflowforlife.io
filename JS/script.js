@@ -5,6 +5,5 @@ $('.accordion-item').click(function() {
 });
 
 $('#small-nav > #menu-toggle').click(function() {
-    console.log(this);
     $('.small-menu-wrapper').toggle('active');
 });

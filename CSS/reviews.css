@@ -32,3 +32,13 @@
     padding-top: 0;
     padding-bottom: 0;
 }
+
+@media all and (max-width: 540px) {
+    #reviews .row.reviews-img-wrapper {
+        flex-direction: row;
+    }
+
+    #reviews .row.reviews-img-wrapper img {
+        width: 40%;
+    }
+}
