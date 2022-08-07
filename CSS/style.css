@@ -127,6 +127,14 @@ img {
     padding-top: 0;
 }
 
+#small-nav {
+    display: none;
+}
+
+.small-menu-wrapper {
+    display: none;
+}
+
 /* BUTTONS */
 .primary-btn {
     font-weight: 700;
@@ -503,6 +511,37 @@ img {
 
 
 @media all and (max-width: 540px) {
+    #header {
+        display: none;
+    }
+
+    #small-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        background-color: #fafafa;
+        /* background-color: var(--background-accent); */
+    }
+
+    #small-nav .logo {
+        width: 150px;
+        height: auto;
+    }
+
+    #small-nav #menu-toggle i {
+        color: red;
+        font-size: 25px;
+    }
+
+    .small-menu-wrapper .small-menu-content {
+        display: flex;
+        flex-direction: column;
+        background-color: #fafafa;
+        padding: 20px;
+        border-top: 1px solid red;
+    }
+
     .row {
         flex-direction: column;
         margin: 30px auto;

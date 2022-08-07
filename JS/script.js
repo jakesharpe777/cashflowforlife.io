@@ -3,3 +3,8 @@ $('.accordion-item').click(function() {
     $(this).children('.accordion-head').siblings('.accordion-body').toggleClass('active');
     $(this).children('.accordion-head').children('.icon').toggleClass('active');
 });
+
+$('#small-nav > #menu-toggle').click(function() {
+    console.log(this);
+    $('.small-menu-wrapper').toggle('active');
+});
