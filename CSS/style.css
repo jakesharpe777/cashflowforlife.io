@@ -631,6 +631,10 @@ img {
         width: 100%;
     }
 
+    #usp .row .usp-item:nth-child(5) {
+        width: 100%;
+    }
+
     #usp .row .usp-item p {
         text-align: left;
     }
