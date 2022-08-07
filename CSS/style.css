@@ -232,41 +232,62 @@ img {
 }
 
 /* USPS */
-#usp .row h2 {
-    font-size: 40px;
+#usp .row:nth-child(2) {
+    background-color: transparent;
 }
 
-#usp .row .small-headline {
-    text-align: center;
-}
-
-#usp .row {
-    gap: 20px;
+#usp .usp-wrapper {
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 #usp .row .usp-item {
-    background-color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-accent);
+    padding: 40px;
     border-radius: 12px;
+    width: 40%;
 }
 
-#usp .row .usp-item h5 {
-    font-size: 20px;
+#usp .row .usp-item:nth-child(5) {
+    width: calc(80% + 40px);
+}
+
+#usp .row .usp-item .counter {
+    font-size: 60px;
     font-weight: 700;
-    padding: 10px 0 0 10px;
+    background-image: linear-gradient(90deg, #8f2df0, #ff934f);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#usp .row .usp-item h3 {
+    font-weight: 700;
+    font-size: 24px;
 }
 
 #usp .row .usp-item p {
-    font-size: 16px;
-    padding: 10px 0 10px 10px;
+    font-size: 18px;
 }
 
-#usp .row .usp-item img {
-    border-radius: 0;
-    border-top-right-radius: 12px;
-    border-top-left-radius: 12px;
+#usp .row .usp-item a {
+    font-size: 18px;
+    color: var(--white);
+    text-decoration: none;
+    transition: var(--transition);
 }
 
-#usp .row:nth-child(1),
+#usp .row .usp-item a:hover {
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+
 #reviews .row:nth-child(1) {
     margin-bottom: 0;
     padding-bottom: 0;
@@ -274,7 +295,6 @@ img {
     border-bottom-left-radius: 0;
 }
 
-#usp .row:nth-child(2),
 #reviews .row:nth-child(2) {
     margin-top: 0;
     padding-top: 0;
