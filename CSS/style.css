@@ -116,7 +116,6 @@ img {
     transition: var(--transition);
 }
 
-
 #header .row .primary-btn {
     background-color: var(--secondary);
     margin-top: 0;
@@ -146,7 +145,6 @@ img {
     border-radius: 9px;
     padding: 15px 20px;
     transition: var(--transition);
-    /* margin-top: 30px; */
 }
 
 .primary-btn:hover {
@@ -218,7 +216,6 @@ img {
     color: var(--white);
     font-size: 16px;
     line-height: 24px;
-
     outline: none;
     border: none;
 }
@@ -233,7 +230,6 @@ img {
     background-color: var(--secondary);
     border: none;
 }
-
 
 /* USPS */
 #usp .row h2 {
@@ -338,8 +334,6 @@ img {
     margin-bottom: 0;
 }
 
-
-
 /* REVIEWS */
 #reviews .row h2 {
     font-size: 40px;
@@ -355,13 +349,6 @@ img {
 #reviews .row .review-item p {
     font-style: italic;
 }
-
-
-/* YOUTUBE EMBED */
-
-
-
-
 
 /* FAQ */
 #faq .row:nth-child(1) {
@@ -458,11 +445,6 @@ img {
     opacity: 0.5;
 }
 
-
-
-
-
-
 /* FOOTER */
 #footer .row {
     align-items: center;
@@ -508,8 +490,6 @@ img {
     opacity: 1;
     transition: var(--transition);
 }
-
-
 
 @media all and (max-width: 540px) {
     #header {
