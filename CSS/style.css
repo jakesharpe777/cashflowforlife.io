@@ -355,6 +355,21 @@ img {
 
 
 /* FAQ */
+#faq .row:nth-child(1) {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    justify-content: flex-start;
+}
+
+#faq .row:nth-child(2) {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#faq .row h2 {
+    font-size: 40px;
+}
+
 #faq .row {
     background-color: transparent;
 }
