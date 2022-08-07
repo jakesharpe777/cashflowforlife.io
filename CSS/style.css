@@ -546,7 +546,8 @@ img {
 
     .row {
         flex-direction: column;
-        margin: 30px auto;
+        margin: 20px auto;
+        padding: 20px;
     }
 
     .row.row-reverse {
@@ -555,7 +556,8 @@ img {
 
     .col {
         width: 100%;
-        padding: 0 30px;
+        padding: 0;
+        margin: 0;
     }
 
     .row.flex-col {
@@ -563,11 +565,67 @@ img {
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 30px;
         text-align: center;
     }
-    
+
+    h2 {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    h5 {
+        text-align: center;
+        font-size: 20px;
+    }
+
     p {
         text-align: center;
+        font-size: 14px;
+    }
+
+    .small-headline {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .primary-btn {
+        margin: 0 auto;
+    }
+
+    #usp .row h2,
+    #reviews .row h2,
+    #stats .row h2,
+    #faq .row h2 {
+        font-size: 26px;
+    }
+
+    #usp .row:nth-child(1),
+    #reviews .row:nth-child(1) {
+        padding-top: 20px;
+    }
+
+    #stats .row .stats-item {
+        flex-direction: column;
+    }
+
+    #stats .row .stats-item .left,
+    #stats .row .stats-item .right {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    #footer .row {
+        align-items: unset;
+        justify-content: flex-start;
+    }
+
+    #footer .row p {
+        text-align: left;
+    }
+
+    #footer .socials {
+        flex-direction: row;
     }
 }
