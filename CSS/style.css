@@ -244,6 +244,7 @@ img {
 #usp .row .usp-item {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     background-color: var(--background-accent);
     padding: 40px;
     border-radius: 12px;
@@ -280,6 +281,7 @@ img {
     color: var(--white);
     text-decoration: none;
     transition: var(--transition);
+    margin-top: auto;
 }
 
 #usp .row .usp-item a:hover {
