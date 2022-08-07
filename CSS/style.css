@@ -287,6 +287,20 @@ img {
     transition: var(--transition);
 }
 
+#usp .row:nth-child(1) .small-headline {
+    text-align: center;
+}
+
+#usp .row:nth-child(1) {
+    margin-bottom: 0;
+}
+
+#usp .row:nth-child(2) {
+    margin-top: 0;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+
 
 #reviews .row:nth-child(1) {
     margin-bottom: 0;
@@ -306,6 +320,7 @@ img {
 #stats .row:nth-child(1) {
     background-color: transparent;
     margin-bottom: 20px;
+    margin-top: 0;
     padding-bottom: 0;
 }
 
