@@ -1,0 +1,34 @@
+#intro h1 {
+    font-size: 42px;
+}
+
+#reviews .row {
+    gap: 40px;
+    flex-wrap: wrap;
+    background-color: transparent;
+}
+
+#reviews .row img {
+    width: calc(50% - 40px);
+}
+
+#reviews .row:nth-child(1) {
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+}
+
+#reviews .row:nth-child(2) {
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#reviews .row:nth-child(3) {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
