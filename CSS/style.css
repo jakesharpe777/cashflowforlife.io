@@ -239,6 +239,7 @@ img {
 #usp .usp-wrapper {
     flex-wrap: wrap;
     gap: 40px;
+    background-color: transparent;
 }
 
 #usp .row .usp-item {
