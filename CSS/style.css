@@ -298,6 +298,11 @@ img {
 }
 
 #usp .row:nth-child(2) {
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+#usp .row:nth-child(3) {
     margin-top: 0;
     padding-top: 40px;
     margin-bottom: 0;
@@ -326,7 +331,8 @@ img {
     padding-bottom: 0;
 }
 
-#stats .row h2 {
+#stats .row h2,
+.row.core h2 {
     font-size: 42px;
 }
 
