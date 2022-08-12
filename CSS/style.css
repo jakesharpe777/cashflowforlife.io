@@ -124,7 +124,11 @@ img {
 #hero .row {
     height: 70vh;
     margin-top: 0;
-    padding-top: 0;
+}
+
+#hero .row .primary-btn {
+    font-size: 20px;
+    padding: 15px 35px;
 }
 
 #small-nav {
@@ -280,12 +284,13 @@ img {
 #usp .row .usp-item a {
     font-size: 18px;
     color: var(--white);
-    text-decoration: none;
+    text-decoration: underline;
     transition: var(--transition);
     margin-top: auto;
 }
 
 #usp .row .usp-item a:hover {
+    color: var(--secondary);
     text-decoration: underline;
     transition: var(--transition);
 }
