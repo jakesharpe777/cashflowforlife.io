@@ -83,6 +83,10 @@ img {
     height: auto;
 }
 
+#jake-img {
+    margin-top: 20px;
+}
+
 
 /* HEADER */
 #header .row {
