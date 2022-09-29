@@ -23,10 +23,10 @@
     order: 3; 
 }
 
-#gallery img {
+#gallery .item img {
     vertical-align: bottom;
     border-radius: 12px;
-    width: 100%!important;
+    width: 100%;
 }
   
 /* Force new columns */
