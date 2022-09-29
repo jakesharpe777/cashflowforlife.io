@@ -37,3 +37,14 @@
     width: 0;
     order: 2;
 }
+
+@media (max-width: 768px) {
+    #gallery {
+        flex-flow: column;
+
+    }
+
+    #gallery .item {
+        width: 100%;
+    }
+}
