@@ -8,10 +8,6 @@
     background-color: transparent;
 }
 
-#reviews .row img {
-    width: calc(50% - 40px);
-}
-
 #reviews .row:nth-child(1) {
     margin-top: 0;
     padding-top: 0;
