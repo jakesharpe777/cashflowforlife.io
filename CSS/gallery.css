@@ -26,6 +26,7 @@
 #gallery img {
     vertical-align: bottom;
     border-radius: 12px;
+    width: 100%!important;
 }
   
 /* Force new columns */
