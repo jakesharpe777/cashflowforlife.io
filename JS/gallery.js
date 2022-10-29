@@ -7,7 +7,7 @@ const reviewsLength = 214;
 
 function createGalleryArray() {
     for (let i = 1; i < reviewsLength; i++) {
-        let location = './IMG/reviews/pic-' + i + ".png";
+        let location = './IMG/reviews/pic-' + i + '.png';
         
         let testimonialObject = {
             'src' : location
