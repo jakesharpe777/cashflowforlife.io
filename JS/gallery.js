@@ -1,44 +1,21 @@
 const galleryWrapper = document.querySelector('#gallery');
 
-const reviews = [
-    {
-        'src' : './IMG/reviews/review1.png'
-    },
-    {
-        'src' : './IMG/reviews/review2.png'
-    },
-    {
-        'src' : './IMG/reviews/review3.png'
-    },
-    {
-        'src' : './IMG/reviews/review4.png'
-    },
-    {
-        'src' : './IMG/reviews/review5.png'
-    },
-    {
-        'src' : './IMG/reviews/review6.png'
-    },
-    {
-        'src' : './IMG/reviews/review7.png'
-    },
-    {
-        'src' : './IMG/reviews/review8.png'
-    },
-    {
-        'src' : './IMG/reviews/review9.png'
-    },
-    {
-        'src' : './IMG/reviews/review10.png'
-    },
-    {
-        'src' : './IMG/reviews/review11.png'
-    },
-    {
-        'src' : './IMG/reviews/review12.png'
-    }
-]
+const reviews = []
 
+// Size of Reviews Folder (+1)
+const reviewsLength = 214;
+
+function createGalleryArray() {
+    for (let i = 1; i < reviewsLength; i++) {
+        let location = './IMG/reviews/pic-' + i;
+        
+        let testimonialObject = {
+            'src' : location
+        };
+        
+        reviews.push(testimonialObject);
+    };
+} 
 
 function createGallery() {
     for (let i = 0; i < reviews.length; i++) {
@@ -53,5 +30,6 @@ function createGallery() {
 };
 
 $(document).ready(function() {
+    createGalleryArray();
     createGallery();
 });
