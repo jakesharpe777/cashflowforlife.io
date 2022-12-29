@@ -3,7 +3,7 @@ const galleryWrapper = document.querySelector('#gallery');
 const reviews = []
 
 // Size of Reviews Folder (+1)
-const reviewsLength = 214;
+const reviewsLength = 231;
 
 /* Randomize array in-place using Durstenfeld shuffle algorithm */
 function shuffleArray(array) {
